@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // Create an Axios instance
 const api = axios.create({
-  baseURL: 'http://localhost:3000/api/v1', // Replace with your API base URL
+  baseURL: 'https://ifms-backend.onrender.com/api/v1', // Replace with your API base URL
 });
 
 // Add a request interceptor to include the token

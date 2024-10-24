@@ -12,7 +12,7 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3000/api/v1/user/login', { email, password });
+      const response = await axios.post('https://ifms-backend.onrender.com/api/v1/user/login', { email, password });
       
       // Save the token in localStorage
 

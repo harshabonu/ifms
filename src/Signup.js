@@ -16,7 +16,7 @@ function Signup() {
     setError(null); // Reset any previous error
 
     try {
-      const response = await axios.post('http://localhost:3000/api/v1/user/register', {
+      const response = await axios.post('https://ifms-backend.onrender.com/api/v1/user/register', {
         username,
         email,
         password,
